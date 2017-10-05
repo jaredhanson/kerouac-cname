@@ -9,6 +9,27 @@ describe('kerouac-cname', function() {
     expect(cname).to.be.a('function');
   });
   
+  describe('cname', function() {
+    var page, err;
+
+    before(function(done) {
+      chai.kerouac.use(cname())
+        .page(function(page) {
+          page.site = new mock.Site();
+          page.site.set('base url', 'http://www.example.com/');
+        })
+        .end(function(p) {
+          page = p;
+          done();
+        })
+        .dispatch();
+    });
+  
+    it('should write CNAME', function() {
+      expect(page.body).to.equal('www.example.com');
+    });
+  }); // cname
+  
   describe('without base url setting', function() {
     var page, err;
 
