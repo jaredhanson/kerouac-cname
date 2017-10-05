@@ -2,6 +2,10 @@
   "name": "kerouac-cname",
   "version": "0.0.0",
   "description": "CNAME middleware for Kerouac.",
+  "keywords": [
+    "github",
+    "cname"
+  ],
   "author": {
     "name": "Jared Hanson",
     "email": "jaredhanson@gmail.com",
