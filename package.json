@@ -1,6 +1,6 @@
 {
   "name": "kerouac-cname",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CNAME middleware for Kerouac.",
   "keywords": [
     "github",
