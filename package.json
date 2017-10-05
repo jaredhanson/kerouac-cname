@@ -1,13 +1,14 @@
 {
   "name": "kerouac-cname",
   "version": "0.0.0",
-  "description": "",
+  "description": "CNAME middleware for Kerouac.",
   "author": {
     "name": "Jared Hanson",
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
-  "repository": {    "type": "git",
+  "repository": {
+    "type": "git",
     "url": "git://github.com/jaredhanson/kerouac-cname.git"
   },
   "bugs": {
@@ -24,7 +25,8 @@
   "devDependencies": {
     "make-node": "^0.3.0",
     "mocha": "^2.0.0",
-    "chai": "^3.0.0"
+    "chai": "^3.0.0",
+    "chai-kerouac-middleware": "0.0.x"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.test.js"
