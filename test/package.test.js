@@ -15,8 +15,7 @@ describe('kerouac-cname', function() {
     before(function(done) {
       chai.kerouac.use(cname())
         .page(function(page) {
-          page.site = new mock.Site();
-          page.site.set('base url', 'http://www.example.com/');
+          page.baseURL = 'http://www.example.com/';
         })
         .end(function(p) {
           page = p;
@@ -36,10 +35,6 @@ describe('kerouac-cname', function() {
     before(function(done) {
       chai.kerouac.use(cname())
         .page(function(page) {
-          page.site = new mock.Site();
-          page.pages = [
-            { url: '/hello' },
-          ];
         })
         .next(function(e) {
           err = e;
