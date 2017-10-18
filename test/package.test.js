@@ -15,7 +15,7 @@ describe('kerouac-cname', function() {
     before(function(done) {
       chai.kerouac.use(cname())
         .page(function(page) {
-          page.baseURL = 'http://www.example.com/';
+          page.site = { get: function() { return 'http://www.example.com/'; } }
         })
         .end(function(p) {
           page = p;
@@ -35,6 +35,7 @@ describe('kerouac-cname', function() {
     before(function(done) {
       chai.kerouac.use(cname())
         .page(function(page) {
+          page.site = { get: function() { return undefined; } }
         })
         .next(function(e) {
           err = e;
