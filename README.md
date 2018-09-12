@@ -1,14 +1,21 @@
 # kerouac-cname
 
+[Kerouac](https://github.com/jaredhanson/kerouac) middleware that generates
+a CNAME file for use with [GitHub Pages](https://pages.github.com/).
+
+Status:
 [![Version](https://img.shields.io/npm/v/kerouac-cname.svg?label=version)](https://www.npmjs.com/package/kerouac-cname)
 [![Build](https://img.shields.io/travis/jaredhanson/kerouac-cname.svg)](https://travis-ci.org/jaredhanson/kerouac-cname)
 [![Quality](https://img.shields.io/codeclimate/github/jaredhanson/kerouac-cname.svg?label=quality)](https://codeclimate.com/github/jaredhanson/kerouac-cname)
 [![Coverage](https://img.shields.io/coveralls/jaredhanson/kerouac-cname.svg)](https://coveralls.io/r/jaredhanson/kerouac-cname)
 [![Dependencies](https://img.shields.io/david/jaredhanson/kerouac-cname.svg)](https://david-dm.org/jaredhanson/kerouac-cname)
 
+## Sponsorship
 
-[Kerouac](https://github.com/jaredhanson/kerouac) middleware that generates
-a CNAME file for use with [GitHub Pages](https://pages.github.com/).
+Kerouac is open source software.  Ongoing development is made possible by
+generous contributions from individuals and corporations.  To learn more about
+how you can help keep this project financially sustainable, please visit Jared
+Hanson's page on [Patreon](https://www.patreon.com/jaredhanson).
 
 ## Install
 
@@ -36,8 +43,4 @@ a custom domain.
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2017 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/kerouac-cname'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/kerouac-cname.svg' />
-</a>
+Copyright (c) 2017-2018 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
