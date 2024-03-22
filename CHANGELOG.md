@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Exported `createMapper()` function, which returns a new instance of `Mapper`.
+This is used with changes to `generate()` introduced in `kerouac@0.2.0`.
+
 ### Changed
 - Read 'base url' setting from `page.app` rather than `page.site`, in accordance
 with latest changes to `keraouc`.
