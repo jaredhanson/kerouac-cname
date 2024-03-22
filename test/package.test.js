@@ -13,7 +13,7 @@ describe('kerouac-cname', function() {
     var page, err;
 
     before(function(done) {
-      chai.kerouac.use(cname())
+      chai.kerouac.use(cname.cname())
         .page(function(page) {
           page.app = { get: function() { return 'http://www.example.com/'; } }
         })
@@ -33,7 +33,7 @@ describe('kerouac-cname', function() {
     var page, err;
 
     before(function(done) {
-      chai.kerouac.use(cname())
+      chai.kerouac.use(cname.cname())
         .page(function(page) {
           page.app = { get: function() { return undefined; } }
         })

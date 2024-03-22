@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is used with changes to `generate()` introduced in `kerouac@0.2.0`.
 
 ### Changed
+- Module now exports a function which constructs a `kerouac.Router` instance
+which generates a file at the required `/CNAME` location.  This eliminates
+boilerplate necessitated by the previously exported middleware.  Previously
+exported middleware is exported at `cname()`.
 - Read 'base url' setting from `page.app` rather than `page.site`, in accordance
 with latest changes to `keraouc`.
 
